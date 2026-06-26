@@ -51,7 +51,7 @@ ls
 ls -l
 ls -la
 
-# Created a nested directory & file
+# Created a nested directory 
 mkdir -p color/red
 cd color
 ls
