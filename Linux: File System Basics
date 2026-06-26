@@ -51,10 +51,11 @@ ls
 ls -l
 ls -la
 
-# Created a nested directory 
+# Created a nested directory & file
 mkdir -p color/red
 cd color
 ls
-  147  touch notepad/homework
+touch notepad/homework
+ls
   148  cd ..
   149  touch notepad/homework
