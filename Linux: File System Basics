@@ -1,0 +1,60 @@
+#Linux Lab 1 - File System Basics
+
+## Objective
+Learn how to navigate the Linux file system
+
+## Commands Practiced
+-ls
+-mkdir
+-rm
+-mv
+-cp
+-vi
+-touch
+-cd
+-cd ..
+-pwd
+-ls -l
+-ls -la
+-cat
+-mkdir -p
+
+## Example
+```bash
+
+# Create/Remove a directory
+ls
+mkdir documents
+mkdir notes pictures games
+rmdir games
+ls
+
+# Create/Rename a file
+touch paper.txt
+touch contact.txt phone.txt grades.txt
+mv grades.txt color.txt
+ls
+
+# Edit file and copy content to another file then delete
+vi color.txt
+cp color.txt contact.txt
+cat color.txt
+cat contact.txt
+rm color.txt
+ls
+
+# Show present directory, Change directory, view list, long list with hidden files
+pwd
+cd notes
+cd ..
+ls
+ls -l
+ls -la
+
+# Created a nested directory 
+mkdir -p color/red
+cd color
+ls
+  147  touch notepad/homework
+  148  cd ..
+  149  touch notepad/homework
