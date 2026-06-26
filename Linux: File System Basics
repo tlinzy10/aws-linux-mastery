@@ -56,6 +56,3 @@ mkdir -p color/red
 cd color
 ls
 touch notepad/homework
-ls
-  148  cd ..
-  149  touch notepad/homework
